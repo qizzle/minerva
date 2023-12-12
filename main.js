@@ -79,7 +79,7 @@ class Minerva {
     var denyList = JSON.parse(await fs.readFileSync(denylist));
 
     await page.goto(
-      `https://www.youtube.com/results?search_query=${this.query}`
+      `https://www.youtube.com/results?search_query=${this.query}&sp=EgIQAg%253D%253D`
     );
 
     // Scraper
