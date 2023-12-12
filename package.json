@@ -1,0 +1,15 @@
+{
+  "name": "minerva",
+  "version": "1.0.0",
+  "description": "A tool named after the Roman god of wisdom, Minerva, designed for fetching YouTube channels using subscribers as filter.",
+  "main": "minerva.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Dimitri B.",
+  "license": "MIT",
+  "dependencies": {
+    "puppeteer": "^21.6.0"
+  }
+}
